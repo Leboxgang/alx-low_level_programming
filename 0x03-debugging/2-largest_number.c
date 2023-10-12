@@ -28,21 +28,6 @@ int largest_number(int a, int b, int c)
 	{
 		largest = c;
 	}
-
-int largest_number(int a, int b, int c, int arr[], int size)
-{
-    int largest = a;
-
-    if (b > largest)
-        largest = b;
-    if (c > largest)
-        largest = c;
-
-    for (int i = 0; i < size; i++) {
-        if (arr[i] > largest)
-            largest = arr[i];
-    }
-
     return largest;
 }
 
