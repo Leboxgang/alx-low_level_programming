@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Test function for positive or negative
+ * main - tests function that prints if iteger is positive or negative
  * Return: 0
  */
 
@@ -11,6 +11,6 @@ int main(void)
 
 	i = 0;
 	positive or negative(i);
-
-return (0);
+	
+	return (0);
 }
