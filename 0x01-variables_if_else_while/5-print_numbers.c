@@ -8,25 +8,16 @@
  * Return: Always 0.
  */
 
-
 int main(void)
 {
-    char letter;
+    int number;
 
-    for (letter = 'a'; letter <= 'z'; letter++)
+    for (number = 0; number < 10; number++)
     {
-        if (letter != 'e' && letter != 'q')
-        {
-            putchar(letter);
-        }
-    }
-    for (letter = 'A'; letter <= 'Z'; letter++)
-    {
-        putchar(letter);
+        putchar(number + '0');
     }
 
     putchar('\n');
 
     return (0);
 }
-
