@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "main.h"
 
 /**
@@ -25,5 +26,5 @@ char *_strstr(char *haystack, char *needle)
             return (haystack);
     }
 
-    return (NULL);  // Return NULL if needle is not found in haystack
+    return (NULL);
 }
