@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>  // This is the missing include for EXIT_SUCCESS
 
 /**
  * main - check the code
